@@ -7,10 +7,16 @@
 header {
     background-color: #ecebeb;
 }
-.headline-content .card-body {
+.bg-container {
+    background-color: #272a31;
+}
+.bg-container-light {
     background-color: #ecebeb;
 }
 
+.text-color {
+    color: #ec5242;
+}
 .common-h3 {
   color: #ec5242;
 }
@@ -31,9 +37,7 @@ header {
 .arrow-icon {
     max-width: 20px;
 }
-.bg-container {
-    background-color: #272a31;
-}
+
 @media screen and (min-width: 768px){
     .navbar {
         background-color: white;
