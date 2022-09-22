@@ -82,4 +82,7 @@ header {
   .speaker-detail {
     max-width: 50%;
   }
+  .about-head-card {
+    max-width: 75%;
+  }
 }
