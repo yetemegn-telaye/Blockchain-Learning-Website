@@ -55,6 +55,10 @@ header {
   max-width: 20px;
 }
 
+.program-text-desktop {
+  text-align: start;
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
     background-color: white;
@@ -84,5 +88,9 @@ header {
   }
   .about-head-card {
     max-width: 75%;
+  }
+
+  .program-text-desktop {
+    text-align: center;
   }
 }
