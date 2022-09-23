@@ -9,6 +9,11 @@ header {
   background-color: #ecebeb;
 }
 
+.headline-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .bg-container {
   background-color: #272a31;
 }
@@ -19,6 +24,10 @@ header {
 
 .text-color {
   color: #ec5242;
+}
+
+.text-color-light {
+  color: #b0b0b0;
 }
 
 .common-h3 {
@@ -36,17 +45,52 @@ header {
   color: white;
 }
 
-.speaker-img {
-  max-width: 100px;
+.main-logo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
 }
 
 .arrow-icon {
   max-width: 20px;
 }
 
+.program-text-desktop {
+  text-align: start;
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
     background-color: white;
-    border-bottom: black;
+    box-shadow: 3px 3px 5px #ccc;
+  }
+
+  .headline-section {
+    width: 55%;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .progrogram-icon {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .speaker-img {
+    max-width: 30%;
+  }
+
+  .speaker-detail {
+    max-width: 50%;
+  }
+
+  .about-head-card {
+    max-width: 75%;
+  }
+
+  .program-text-desktop {
+    text-align: center;
   }
 }
