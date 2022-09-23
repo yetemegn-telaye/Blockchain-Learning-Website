@@ -5,7 +5,11 @@
   box-sizing: border-box;
 }
 
-header {
+.bg-container-dark {
+  background-color: #272a31;
+}
+
+.bg-container-light {
   background-color: #ecebeb;
 }
 
@@ -14,15 +18,7 @@ header {
   padding-bottom: 60px;
 }
 
-.bg-container {
-  background-color: #272a31;
-}
-
-.bg-container-light {
-  background-color: #ecebeb;
-}
-
-.text-color {
+.text-color-orange {
   color: #ec5242;
 }
 
@@ -30,8 +26,34 @@ header {
   color: #b0b0b0;
 }
 
-.common-h3 {
-  color: #ec5242;
+.text-color-dark {
+  color: #44474e;
+}
+
+.headline-span {
+  font-size: 32px;
+}
+
+.headline-h1 {
+  font-size: 3.25rem;
+  line-height: 4rem;
+}
+
+.main-logo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.main-program-item:hover {
+  border: 2px solid white;
+}
+.main-program-link {
+  color: #cacaca;
+}
+
+.main-program-link:hover {
+  color: white;
 }
 
 .common-hr {
@@ -48,20 +70,39 @@ header {
   color: white;
 }
 
-.main-logo {
-  max-width: 50px;
-  max-height: 50px;
-  margin-right: 10px;
-}
-
 .arrow-icon {
   max-width: 20px;
 }
 
 .program-text-desktop {
   text-align: start;
+  color: #cacaca;
+  font-size: 16px;
 }
 
+.about-logo-img {
+  width: 300px;
+  
+}
+
+.about-card-overlay{
+  background-color: #ec5242;
+  opacity: 0.8;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-card-overlay p {
+  z-index: 2;
+}
+.speaker-img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Code for Deskop version */
 @media screen and (min-width: 768px) {
   .navbar {
     background-color: white;
@@ -79,10 +120,6 @@ header {
   .progrogram-icon {
     max-width: 40px;
     max-height: 40px;
-  }
-
-  .speaker-img {
-    max-width: 30%;
   }
 
   .speaker-detail {
