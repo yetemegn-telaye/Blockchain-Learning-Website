@@ -2,43 +2,43 @@ const menuCloseBtn = document.querySelector('#menu-close');
 const rowContainer = document.querySelector('#speakers-section');
 const speakersData = [
   {
-    speakerImg: "/images/profile-img3.jpg",
-    speakerName: "Bob Scheldon",
-    speakerTitle: "Director of Art Centre Nabi and board member of CC Korea",
-    speakerDetail: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts."
+    speakerImg: '/images/profile-img3.jpg',
+    speakerName: 'Bob Scheldon',
+    speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
+    speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: "/images/profile-img3.jpg",
-    speakerName: "Bob Scheldon",
-    speakerTitle: "Berkman Professor of Entrepreneurial Studies at Harvard",
-    speakerDetail: "As the main venue for new media art production in UK."
+    speakerImg: '/images/profile-img3.jpg',
+    speakerName: 'Bob Scheldon',
+    speakerTitle: 'Berkman Professor of Entrepreneurial Studies at Harvard',
+    speakerDetail: 'As the main venue for new media art production in UK.',
   },
   {
-    speakerImg: "/images/profile-img3.jpg",
-    speakerName: "Bob Scheldon",
-    speakerTitle: "Director of Art Centre Nabi and board member of CC Korea",
-    speakerDetail: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts."
+    speakerImg: '/images/profile-img3.jpg',
+    speakerName: 'Bob Scheldon',
+    speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
+    speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: "/images/profile-img3.jpg",
-    speakerName: "Bob Scheldon",
-    speakerTitle: "Director of Art Centre Nabi and board member of CC Korea",
-    speakerDetail: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts."
+    speakerImg: '/images/profile-img3.jpg',
+    speakerName: 'Bob Scheldon',
+    speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
+    speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: "/images/profile-img3.jpg",
-    speakerName: "Bob Scheldon",
-    speakerTitle: "Director of Art Centre Nabi and board member of CC Korea",
-    speakerDetail: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts."
+    speakerImg: '/images/profile-img3.jpg',
+    speakerName: 'Bob Scheldon',
+    speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
+    speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: "/images/profile-img3.jpg",
-    speakerName: "Bob Scheldon",
-    speakerTitle: "Director of Art Centre Nabi and board member of CC Korea",
-    speakerDetail: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts."
+    speakerImg: '/images/profile-img3.jpg',
+    speakerName: 'Bob Scheldon',
+    speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
+    speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
 ];
-let speakerColumns = "";
+let speakerColumns = '';
 
 menuCloseBtn.addEventListener('click', () => {
   const toggleMenuBtn = document.querySelector('#toggleMenuBtn');
@@ -46,10 +46,9 @@ menuCloseBtn.addEventListener('click', () => {
 });
 
 const mediaQuery = window.matchMedia('(min-width: 768px)');
-function displaySpeakerCard (data) {
-
-    data.forEach(speaker => {
-      speakerColumns +=`
+function displaySpeakerCard(data) {
+  data.forEach((speaker) => {
+    speakerColumns += `
       <div class="col-12 col-md-6">
       <div class="d-flex justify-content-center align-items-start">
           <div class="speaker-img">
@@ -67,36 +66,31 @@ function displaySpeakerCard (data) {
       </div>
       </div>
       `;
-    });
-  
-  
-  rowContainer.innerHTML=speakerColumns;
+  });
+
+  rowContainer.innerHTML = speakerColumns;
 }
 
-
-let slicedSpeakersData = speakersData.slice(0,2);
+const slicedSpeakersData = speakersData.slice(0, 2);
 
 function handleTabletChange(e) {
-  
   if (e.matches) {
-    speakerColumns = "";
+    speakerColumns = '';
     displaySpeakerCard(speakersData);
-    console.log("Desktop screen");
-  }
-  else{
-    speakerColumns = "";
+  } else {
+    speakerColumns = '';
     displaySpeakerCard(slicedSpeakersData);
   }
 }
 
-mediaQuery.addEventListener('change',handleTabletChange)
+mediaQuery.addEventListener('change', handleTabletChange);
 
 handleTabletChange(mediaQuery);
 
-let moreBtn = document.querySelector("#more-btn");
-let afterSlicedSpeakers = speakersData.slice(2,speakersData.length);
+const moreBtn = document.querySelector('#more-btn');
+const afterSlicedSpeakers = speakersData.slice(2, speakersData.length);
 
-moreBtn.addEventListener('click', function(){
+moreBtn.addEventListener('click', () => {
   displaySpeakerCard(afterSlicedSpeakers);
-  moreBtn.style.display= "none";
+  moreBtn.style.display = 'none';
 });

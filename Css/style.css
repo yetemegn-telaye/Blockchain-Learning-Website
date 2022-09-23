@@ -48,6 +48,7 @@
 .main-program-item:hover {
   border: 2px solid white;
 }
+
 .main-program-link {
   color: #cacaca;
 }
@@ -61,10 +62,11 @@
   background-color: #ec5242;
   border: 1px solid #ec5242;
 }
+
 .speaker-hr {
   max-width: 30px;
-
 }
+
 .common-btn {
   background-color: #ec5242;
   color: white;
@@ -82,10 +84,9 @@
 
 .about-logo-img {
   width: 300px;
-  
 }
 
-.about-card-overlay{
+.about-card-overlay {
   background-color: #ec5242;
   opacity: 0.8;
   z-index: 1;
@@ -97,6 +98,7 @@
 .about-card-overlay p {
   z-index: 2;
 }
+
 .speaker-img {
   width: 120px;
   height: 120px;
