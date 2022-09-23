@@ -10,9 +10,9 @@ header {
 }
 
 .headline-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .bg-container {
   background-color: #272a31;
@@ -27,7 +27,7 @@ header {
 }
 
 .text-color-light {
-    color: #b0b0b0;
+  color: #b0b0b0;
 }
 
 .common-h3 {
@@ -46,9 +46,9 @@ header {
 }
 
 .main-logo {
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 10px;
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
 }
 
 .arrow-icon {
@@ -63,7 +63,6 @@ header {
   .navbar {
     background-color: white;
     box-shadow: 3px 3px 5px #ccc;
-    
   }
 
   .headline-section {
@@ -86,6 +85,7 @@ header {
   .speaker-detail {
     max-width: 50%;
   }
+
   .about-head-card {
     max-width: 75%;
   }
