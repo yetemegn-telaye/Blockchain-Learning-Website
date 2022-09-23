@@ -2,37 +2,37 @@ const menuCloseBtn = document.querySelector('#menu-close');
 const rowContainer = document.querySelector('#speakers-section');
 const speakersData = [
   {
-    speakerImg: '/images/profile-img3.jpg',
+    speakerImg: 'images/profile-img3.jpg',
     speakerName: 'Bob Scheldon',
     speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
     speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: '/images/profile-img3.jpg',
+    speakerImg: 'images/profile-img3.jpg',
     speakerName: 'Bob Scheldon',
     speakerTitle: 'Berkman Professor of Entrepreneurial Studies at Harvard',
     speakerDetail: 'As the main venue for new media art production in UK.',
   },
   {
-    speakerImg: '/images/profile-img3.jpg',
+    speakerImg: 'images/profile-img3.jpg',
     speakerName: 'Bob Scheldon',
     speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
     speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: '/images/profile-img3.jpg',
+    speakerImg: 'images/profile-img3.jpg',
     speakerName: 'Bob Scheldon',
     speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
     speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: '/images/profile-img3.jpg',
+    speakerImg: 'images/profile-img3.jpg',
     speakerName: 'Bob Scheldon',
     speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
     speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
   },
   {
-    speakerImg: '/images/profile-img3.jpg',
+    speakerImg: 'images/profile-img3.jpg',
     speakerName: 'Bob Scheldon',
     speakerTitle: 'Director of Art Centre Nabi and board member of CC Korea',
     speakerDetail: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanitites, and the arts.',
