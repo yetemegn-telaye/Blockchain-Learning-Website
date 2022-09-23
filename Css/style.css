@@ -35,11 +35,14 @@ header {
 }
 
 .common-hr {
-  width: 50px;
+  max-width: 50px;
   background-color: #ec5242;
   border: 1px solid #ec5242;
 }
+.speaker-hr {
+  max-width: 30px;
 
+}
 .common-btn {
   background-color: #ec5242;
   color: white;
