@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-https://yetemegn-telaye.github.io/Blockchain-Learning-Website/
+https://yetemegn-telaye.github.io/Blockchain-Learning-website/
 
 
 ## Getting Started
