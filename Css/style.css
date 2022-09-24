@@ -104,6 +104,10 @@
   height: 120px;
 }
 
+#partner-div img {
+  max-width: 20%;
+}
+
 /* Code for Deskop version */
 @media screen and (min-width: 768px) {
   .navbar {
