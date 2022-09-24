@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+https://yetemegn-telaye.github.io/Blockchain-Learning-website/
 
 
 ## Getting Started
@@ -22,16 +22,13 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+ - Html5, Css, Bootstrap and Javascript
 ### Setup
-
+ Using latest bootstrap version 5.2
 ### Install
-
-### Usage
-
-### Run tests
-
+Only linters installed
 ### Deployment
+This project is deployed on github pages : https://yetemegn-telaye.github.io/Blockchain-Learning-website/
 
 
 
@@ -55,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Original design idea by Cindy Shin in Behance.
+- Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance.</a>
 
 
 ## 📝 License

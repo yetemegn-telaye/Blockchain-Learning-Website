@@ -6,6 +6,20 @@
 }
 
 header {
+  background-image: url('../images/bgImage2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-container-dark {
+  background-color: #272a31;
+}
+
+.bg-container-light {
   background-color: #ecebeb;
 }
 
@@ -14,15 +28,7 @@ header {
   padding-bottom: 60px;
 }
 
-.bg-container {
-  background-color: #272a31;
-}
-
-.bg-container-light {
-  background-color: #ecebeb;
-}
-
-.text-color {
+.text-color-orange {
   color: #ec5242;
 }
 
@@ -30,19 +36,22 @@ header {
   color: #b0b0b0;
 }
 
-.common-h3 {
-  color: #ec5242;
+.text-color-dark {
+  color: #44474e;
 }
 
-.common-hr {
-  width: 50px;
-  background-color: #ec5242;
-  border: 1px solid #ec5242;
+.headline-span {
+  font-size: 32px;
 }
 
-.common-btn {
-  background-color: #ec5242;
-  color: white;
+.headline-h1 {
+  font-size: 3.25rem;
+  line-height: 4rem;
+  background-color: #e0b712;
+  background-size: 100%;
+  background-image: -webkit-linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-logo {
@@ -51,14 +60,75 @@ header {
   margin-right: 10px;
 }
 
+.main-program-item:hover {
+  border: 2px solid white;
+}
+
+.main-program-link {
+  color: #cacaca;
+}
+
+.main-program-link:hover {
+  color: white;
+}
+
+.common-hr {
+  max-width: 50px;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+}
+
+.speaker-hr {
+  max-width: 30px;
+}
+
+.common-btn {
+  background-color: #ec5242;
+  color: white;
+}
+
 .arrow-icon {
   max-width: 20px;
 }
 
 .program-text-desktop {
   text-align: start;
+  color: #cacaca;
+  font-size: 16px;
 }
 
+.about-logo-img {
+  width: 300px;
+}
+
+.about-card-overlay {
+  background-color: #ec5242;
+  opacity: 0.8;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-card-overlay p {
+  z-index: 2;
+}
+
+.speaker-img {
+  width: 120px;
+  height: 120px;
+}
+
+#partner-div img {
+  max-width: 20%;
+}
+
+.program-icon {
+  width: 38px;
+  height: 38px;
+}
+
+/* Code for Deskop version */
 @media screen and (min-width: 768px) {
   .navbar {
     background-color: white;
@@ -78,10 +148,6 @@ header {
     max-height: 40px;
   }
 
-  .speaker-img {
-    max-width: 30%;
-  }
-
   .speaker-detail {
     max-width: 50%;
   }
@@ -92,5 +158,10 @@ header {
 
   .program-text-desktop {
     text-align: center;
+  }
+
+  .main-program-item {
+    max-width: 180px;
+    min-height: 200px;
   }
 }
