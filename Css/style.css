@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+header {
+  background-image: url('/images/bgImage2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .bg-container-dark {
   background-color: #272a31;
 }
@@ -37,6 +47,13 @@
 .headline-h1 {
   font-size: 3.25rem;
   line-height: 4rem;
+  background-color: #e0b712;
+  background-image: linear-gradient(40deg, hsla(0, 77%, 51%, 0.938), #edb91a);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .main-logo {
@@ -143,5 +160,10 @@
 
   .program-text-desktop {
     text-align: center;
+  }
+
+  .main-program-item {
+    max-width: 180px;
+    min-height: 200px;
   }
 }
